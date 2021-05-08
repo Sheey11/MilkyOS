@@ -13,17 +13,9 @@ namespace MilkyOS.Core__Asm {
     public class SyscallTestImpl {
         private class SyscallAssembler : AssemblerMethod {
             public override void AssembleNew(Assembler aAssembler, object aMethodInfo) {
-                XS.Set(XSRegisters.EAX, 1);
-                unsafe {
-                    char* str = (char*)HeapSmall.Alloc(6);
-                    for (int i = 0; i < 7; i++)
-                        str[i] = "Hello\0"[i];
-                    XS.Set(XSRegisters.EBX, (uint)&str);
-                }
-                XS.Set(XSRegisters.ECX, 6);
+                XS.Set(XSRegisters.EAX, 5);
 
                 //aAssembler.Add(new LiteralAssemblerCode("int 0x48")); // -> this also work
-
                 new XSharp.Assembler.x86.INT() {DestinationValue = 0x48};
             }
         }
