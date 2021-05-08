@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MilkyOS", "MilkyOS\MilkyOS.csproj", "{4F8CF1E6-B756-4AD7-B4F5-583C8A6BF08E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MilkyOS.Core__Asm", "MilkyOS.Core__Asm\MilkyOS.Core__Asm.csproj", "{B40EC225-FCAD-439D-AD12-2FB0B38507DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F8CF1E6-B756-4AD7-B4F5-583C8A6BF08E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F8CF1E6-B756-4AD7-B4F5-583C8A6BF08E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F8CF1E6-B756-4AD7-B4F5-583C8A6BF08E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F8CF1E6-B756-4AD7-B4F5-583C8A6BF08E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B40EC225-FCAD-439D-AD12-2FB0B38507DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B40EC225-FCAD-439D-AD12-2FB0B38507DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B40EC225-FCAD-439D-AD12-2FB0B38507DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B40EC225-FCAD-439D-AD12-2FB0B38507DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {335E23BE-9552-4B9B-80A0-52228287A5AB}
+	EndGlobalSection
+EndGlobal
